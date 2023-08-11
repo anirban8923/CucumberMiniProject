@@ -1,0 +1,26 @@
+maven should be installed in systen , with maven home variable set uptil before [C:\Program Files\apache-maven-3.8.6][MAVEN_HOME]
+to the path variable add [C:\Program Files\apache-maven-3.8.6\bin]
+
+
+
+run.bat
+
+create a file with .bat extension
+then edit the file
+cd project location
+mvn clean install
+save
+double click to run the file
+
+-----------------------------------------------------
+run with maven commands-mvn clean install
+------------------------------------------------
+run from testrunner file
+-----------------------------------------------
+run from the feature file
+-----------------------------------------------
+run from cmd by cd project location ,,, mvn clean install
+------------------------------------------
+jenkins problem---go to jenkins folder -copy the path--go to cmd--[java -jar jenkins.jar]
+
+https://github.com/anirban8923/CucumberMiniProject.git

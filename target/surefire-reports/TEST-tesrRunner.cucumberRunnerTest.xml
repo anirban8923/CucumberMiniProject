@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="0" name="tesrRunner.cucumberRunnerTest" time="124.182" errors="3" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="nopCucumberProject"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/nopCucumberProject/2/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\anirban\AppData\Local\Jenkins\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="ea0d676be14fff88"/>
+    <property name="POM_ARTIFACTID" value="MiniCucumberProject"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="MiniCucumberProject"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\anirban\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="anirban"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="nopCucumberProject"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/nopCucumberProject/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OneDrive" value="C:\Users\anirban\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\anirban\AppData\Local"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="anirban"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.6\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/nopCucumberProject/2/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\anirban\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/nopCucumberProject/2/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/nopCucumberProject/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-ANIRBAN"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\anirban"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="DESKTOP-ANIRBAN"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="org.example"/>
+    <property name="user.home" value="C:\Users\anirban"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-nopCucumberProject-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="ea0d676be14fff88"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\anirban"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.8.6/bin;C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\anirban\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\anirban\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\anirban\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.6"/>
+    <property name="java.class.path" value="C:\Users\anirban\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.14.jar;C:\Program Files\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\apache-maven-3.8.6/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.8.6 C:\Users\anirban\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-3107.v665000b_51092.jar C:\Users\anirban\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\Users\anirban\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 50208"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\anirban\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\anirban\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-17.0.3.1/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="M2_HOME" value="C:\Program Files\apache-maven-3.8.6"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Users\anirban\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\anirban\AppData\Local\Jenkins\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\apache-maven-3.8.6/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/nopCucumberProject/2/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="user.dir" value="C:\Ani\cucumber\MiniCucumberProject"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/nopCucumberProject/"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-ANIRBAN"/>
+    <property name="USERDOMAIN" value="DESKTOP-ANIRBAN"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\apache-maven-3.8.6"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BASE" value="C:\Program Files\Jenkins"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="ANDROID_HOME" value="C:\Users\anirban\AppData\Local\Android\Sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="ChocolateyLastPathUpdate" value="133171511189364445"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\anirban\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\anirban\AppData\Local\Jenkins\.jenkins\workspace\nopCucumberProject@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\anirban\AppData\Local\Jenkins\.jenkins\workspace\nopCucumberProject"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="maven3.interceptor.common" value="C:\Users\anirban\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\PowerShell\Modules\"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="Customers" name="Add a New Customer" time="16.729">
+    <error message="element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00765429a9f5c33c478d542ec0e88abf, clickElement {id=49195CC2C48C59001A2DB38ACFA404C1_element_91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50212/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (00765429a9f5c33c478d542ec0e88abf)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: 00765429a9f5c33c478d542ec0e88abf" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00765429a9f5c33c478d542ec0e88abf, clickElement {id=49195CC2C48C59001A2DB38ACFA404C1_element_91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50212/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (00765429a9f5c33c478d542ec0e88abf)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: 00765429a9f5c33c478d542ec0e88abf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pageObjects.AddCustomerPage.setLink_customer_menu(AddCustomerPage.java:74)
+	at stepDefinations.Steps.user_click_on_customers_menu(Steps.java:147)
+	at ✽.User click on customers Menu(file:///C:/Ani/cucumber/MiniCucumberProject/./Features/Customers.feature:13)
+</error>
+    <system-out>
+@Customers @Sanity
+Scenario: Add a New Customer                                                              # Features/Customers.feature:12
+2023-08-12 01:42:32 INFO  NOP Commerce Project:53-********Launching the chrome browser*********
+  Given User Launch Firefox Browser                                                       # stepDefinations.Steps.user_launch_firefox_browser()
+2023-08-12 01:42:32 INFO  NOP Commerce Project:75-********Opening url http://admin-demo.nopcommerce.com/login *********
+  When User open URL &quot;http://admin-demo.nopcommerce.com/login&quot;                            # stepDefinations.Steps.user_Open_URL(java.lang.String)
+2023-08-12 01:42:33 INFO  NOP Commerce Project:83-********Providing Login Details*********
+2023-08-12 01:42:33 INFO  NOP Commerce Project:84-********Providing userName*********
+2023-08-12 01:42:34 INFO  NOP Commerce Project:86-********Providing Password*********
+  And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;                  # stepDefinations.Steps.user_email_and_password(java.lang.String,java.lang.String)
+2023-08-12 01:42:34 INFO  NOP Commerce Project:94-********Clicking the login button*********
+  And Click on Login                                                                      # stepDefinations.Steps.logIn()
+  Then User can view Dasboard                                                             # stepDefinations.Steps.user_can_view_dasboard()
+  When User click on customers Menu                                                       # stepDefinations.Steps.user_click_on_customers_menu()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00765429a9f5c33c478d542ec0e88abf, clickElement {id=49195CC2C48C59001A2DB38ACFA404C1_element_91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50212/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (00765429a9f5c33c478d542ec0e88abf)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: 00765429a9f5c33c478d542ec0e88abf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pageObjects.AddCustomerPage.setLink_customer_menu(AddCustomerPage.java:74)
+	at stepDefinations.Steps.user_click_on_customers_menu(Steps.java:147)
+	at âœ½.User click on customers Menu(file:///C:/Ani/cucumber/MiniCucumberProject/./Features/Customers.feature:13)
+
+  And Click on Customers menu item                                                        # stepDefinations.Steps.click_on_customers_menu_item()
+  And Click on Add new button                                                             # stepDefinations.Steps.click_on_add_new_button()
+  Then User can view Add new customer page                                                # stepDefinations.Steps.user_can_view_add_new_customer_page()
+  When User enter customer info                                                           # stepDefinations.Steps.user_enter_customer_info()
+  And Click on Save button                                                                # stepDefinations.Steps.click_on_save_button()
+  Then User can view confirmation message &quot;The new customer has been added successfully.&quot; # stepDefinations.Steps.user_can_view_confirmation_message(java.lang.String)
+  And Close browser                                                                       # stepDefinations.Steps.close()
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+  <testcase classname="Customers" name="Search customer by E-mailId" time="13.52">
+    <error message="element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0222689de64a5462ce6066cc48a0e168, clickElement {id=0E797ACD42283D4D33D27C7A5608F6CC_element_103}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50235/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0222689de64a5462ce6066cc48a0e168)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: 0222689de64a5462ce6066cc48a0e168" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0222689de64a5462ce6066cc48a0e168, clickElement {id=0E797ACD42283D4D33D27C7A5608F6CC_element_103}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50235/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0222689de64a5462ce6066cc48a0e168)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: 0222689de64a5462ce6066cc48a0e168
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pageObjects.AddCustomerPage.setLink_customer_menu(AddCustomerPage.java:74)
+	at stepDefinations.Steps.user_click_on_customers_menu(Steps.java:147)
+	at ✽.User click on customers Menu(file:///C:/Ani/cucumber/MiniCucumberProject/./Features/Customers.feature:24)
+</error>
+    <system-out>
+@Customers @Regression
+Scenario: Search customer by E-mailId                                    # Features/Customers.feature:23
+2023-08-12 01:42:45 INFO  NOP Commerce Project:53-********Launching the chrome browser*********
+  Given User Launch Firefox Browser                                      # stepDefinations.Steps.user_launch_firefox_browser()
+2023-08-12 01:42:45 INFO  NOP Commerce Project:75-********Opening url http://admin-demo.nopcommerce.com/login *********
+  When User open URL &quot;http://admin-demo.nopcommerce.com/login&quot;           # stepDefinations.Steps.user_Open_URL(java.lang.String)
+2023-08-12 01:42:47 INFO  NOP Commerce Project:83-********Providing Login Details*********
+2023-08-12 01:42:47 INFO  NOP Commerce Project:84-********Providing userName*********
+2023-08-12 01:42:47 INFO  NOP Commerce Project:86-********Providing Password*********
+  And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot; # stepDefinations.Steps.user_email_and_password(java.lang.String,java.lang.String)
+2023-08-12 01:42:47 INFO  NOP Commerce Project:94-********Clicking the login button*********
+  And Click on Login                                                     # stepDefinations.Steps.logIn()
+  Then User can view Dasboard                                            # stepDefinations.Steps.user_can_view_dasboard()
+  When User click on customers Menu                                      # stepDefinations.Steps.user_click_on_customers_menu()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0222689de64a5462ce6066cc48a0e168, clickElement {id=0E797ACD42283D4D33D27C7A5608F6CC_element_103}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50235/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0222689de64a5462ce6066cc48a0e168)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: 0222689de64a5462ce6066cc48a0e168
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pageObjects.AddCustomerPage.setLink_customer_menu(AddCustomerPage.java:74)
+	at stepDefinations.Steps.user_click_on_customers_menu(Steps.java:147)
+	at âœ½.User click on customers Menu(file:///C:/Ani/cucumber/MiniCucumberProject/./Features/Customers.feature:24)
+
+  And Click on Customers menu item                                       # stepDefinations.Steps.click_on_customers_menu_item()
+  And Enter customer e-mail                                              # stepDefinations.Steps.enter_customer_e_mail()
+  When click on search button                                            # stepDefinations.Steps.click_on_search_button()
+  Then user should find E-mail in search table                           # stepDefinations.Steps.user_should_find_e_mail_in_search_table()
+  And Close browser                                                      # stepDefinations.Steps.close()
+</system-out>
+  </testcase>
+  <testcase classname="Customers" name="Search customer by Name" time="15.929">
+    <error message="element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e644964448748e241a099f8d6f4386b3, clickElement {id=9F1BD7E00CC46D0CFA6BAF4B9D74E6FD_element_92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e644964448748e241a099f8d6f4386b3)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: e644964448748e241a099f8d6f4386b3" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e644964448748e241a099f8d6f4386b3, clickElement {id=9F1BD7E00CC46D0CFA6BAF4B9D74E6FD_element_92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e644964448748e241a099f8d6f4386b3)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: e644964448748e241a099f8d6f4386b3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pageObjects.AddCustomerPage.setLink_customer_menu(AddCustomerPage.java:74)
+	at stepDefinations.Steps.user_click_on_customers_menu(Steps.java:147)
+	at ✽.User click on customers Menu(file:///C:/Ani/cucumber/MiniCucumberProject/./Features/Customers.feature:33)
+</error>
+    <system-out>
+@Customers @Regression
+Scenario: Search customer by Name                                        # Features/Customers.feature:32
+2023-08-12 01:42:56 INFO  NOP Commerce Project:53-********Launching the chrome browser*********
+  Given User Launch Firefox Browser                                      # stepDefinations.Steps.user_launch_firefox_browser()
+2023-08-12 01:42:56 INFO  NOP Commerce Project:75-********Opening url http://admin-demo.nopcommerce.com/login *********
+  When User open URL &quot;http://admin-demo.nopcommerce.com/login&quot;           # stepDefinations.Steps.user_Open_URL(java.lang.String)
+2023-08-12 01:43:01 INFO  NOP Commerce Project:83-********Providing Login Details*********
+2023-08-12 01:43:01 INFO  NOP Commerce Project:84-********Providing userName*********
+2023-08-12 01:43:01 INFO  NOP Commerce Project:86-********Providing Password*********
+  And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot; # stepDefinations.Steps.user_email_and_password(java.lang.String,java.lang.String)
+2023-08-12 01:43:01 INFO  NOP Commerce Project:94-********Clicking the login button*********
+  And Click on Login                                                     # stepDefinations.Steps.logIn()
+  Then User can view Dasboard                                            # stepDefinations.Steps.user_can_view_dasboard()
+  When User click on customers Menu                                      # stepDefinations.Steps.user_click_on_customers_menu()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e644964448748e241a099f8d6f4386b3, clickElement {id=9F1BD7E00CC46D0CFA6BAF4B9D74E6FD_element_92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:50253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e644964448748e241a099f8d6f4386b3)] -&gt; xpath: /html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/a/p]
+Session ID: e644964448748e241a099f8d6f4386b3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pageObjects.AddCustomerPage.setLink_customer_menu(AddCustomerPage.java:74)
+	at stepDefinations.Steps.user_click_on_customers_menu(Steps.java:147)
+	at âœ½.User click on customers Menu(file:///C:/Ani/cucumber/MiniCucumberProject/./Features/Customers.feature:33)
+
+  And Click on Customers menu item                                       # stepDefinations.Steps.click_on_customers_menu_item()
+  And Enter customer FirstName                                           # stepDefinations.Steps.enter_customer_first_name()
+  And Enter customer LastName                                            # stepDefinations.Steps.enter_customer_last_name()
+  When click on search button                                            # stepDefinations.Steps.click_on_search_button()
+  Then user should find Name in search table                             # stepDefinations.Steps.user_should_find_name_in_search_table()
+  And Close browser                                                      # stepDefinations.Steps.close()
+</system-out>
+  </testcase>
+  <testcase classname="Login" name="Successful Login with valid Credentials" time="26.469"/>
+  <testcase classname="Login" name="Login Data Driven #1" time="26.605"/>
+  <testcase classname="Login" name="Login Data Driven #2" time="24.93"/>
+</testsuite>
